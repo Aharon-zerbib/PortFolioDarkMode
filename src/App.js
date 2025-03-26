@@ -1,4 +1,10 @@
 import "./App.css";
+import Header from "./components/header";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Blog from "./components/Blog";
+import Connect from "./components/Connect";
+
 
 import { useState, useEffect } from "react";
 
@@ -25,8 +31,13 @@ function App() {
 
 
   return (
-    <div className="h-screen bg-white dark:bg-black flex justify-center items-center">
-   
+    <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white flex flex-col items-center p-10 font-sans">
+     
+     <Header/>
+     <Projects/>
+     <Experience/>
+      <Blog/>
+      <Connect/>
     </div>
   );
 }
