@@ -22,15 +22,11 @@ function App() {
     }
   }, [theme]);
 
-  const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
+
 
   return (
     <div className="h-screen bg-white dark:bg-black flex justify-center items-center">
-      <button className="bg-green-200 p-4 rounded-3xl" onClick={handleThemeSwitch}>
-        Dark Mode
-      </button>
+   
     </div>
   );
 }
