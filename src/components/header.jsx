@@ -1,6 +1,6 @@
 const Header=()=>{
     return (
-        <header className="text-start  w-full max-w-3xl mx-auto">
+        <header className="text-start  w-full max-w-3xl mx-auto mt-9">
         <h1 className="font-medium">Aharon Zerbib</h1>
         <h2 className="font-medium mt-2 text-gray-500 mb-9">Devloper Fron-End</h2>
         <p className="font-medium text-gray-500 dark:text-gray-400  row-auto">

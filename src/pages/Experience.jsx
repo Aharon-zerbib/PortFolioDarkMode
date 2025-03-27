@@ -12,8 +12,8 @@ const MyExperience = () => {
   }
   
   return (
-    <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white flex flex-col items-center p-10 font-sans">    
-      <div className="text-start w-full max-w-3xl mx-auto">
+    <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white flex flex-col items-center p-10 font-sans animate-slideDown">    
+      <div className="text-start w-full max-w-3xl mx-auto mt-9">
         <h1 className="font-medium cursor-pointer" onClick={click}>
           Aharon Zerbib
         </h1>
@@ -32,10 +32,10 @@ const MyExperience = () => {
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-2">
           Je travaille sur des projets personnels pour perfectionner mes compétences et explorer de nouvelles technologies comme React, Vite et Tailwind CSS. J’expérimente également avec des outils comme TypeScript et des solutions backend comme MongoDb pour enrichir mes connaissances.
         </p>
-        <p className="font-medium text-gray-500 dark:text-gray-400 row-auto">
+        <p className="font-medium text-gray-500 dark:text-gray-400 mb-3 row-auto">
           En freelance, j’aide mes clients à créer des sites web performants et esthétiques, en optimisant l’expérience utilisateur et la réactivité. Je prends en charge le design et le développement front-end, en veillant à proposer des interfaces fluides et intuitives.
         </p>
-        <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-2">
+        <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-3">
           En parallèle, je me tiens informé des dernières tendances du développement web et j’échange avec la communauté tech pour toujours progresser.
         </p>
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto">
