@@ -33,7 +33,7 @@ const Projects = () => {
             muted
             playsInline
             loop
-            className="w-full max-w-full h-auto rounded-lg mb-4"
+           className="w-full h-auto rounded-lg mb-4 bg-black"
           />
           <h3 className="font-bold text-center md:text-start">
             Premier Projet
