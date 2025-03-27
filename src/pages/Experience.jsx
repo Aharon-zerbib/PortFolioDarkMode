@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import  Form  from "../components/Form";
+
 
 
 const MyExperience = () => {
@@ -46,7 +46,7 @@ const MyExperience = () => {
           <a href="https://www.linkedin.com/in/aharon-zerbib-911bb6276/" className="hover:text-gray-400">LinkedIn</a>
          
         </div>
-        <Form />
+    
       </section>
     </div>
   );
