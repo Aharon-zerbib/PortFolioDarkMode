@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import ProjectVideeoCallofduty from "../img/C​a​l​l​​o​f​​D​u​t​y​.mp4";
 import ProjectVideeoCombaMaster from "../img/CombatMaster.mp4";
+
 const Projects = () => {
   const videoRef1 = useRef(null);
   const videoRef2 = useRef(null);
@@ -26,7 +27,7 @@ const Projects = () => {
       </h2>
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="p-4">
-          <div className="w-full overflow-hidden rounded-lg">
+          <div className="w-full overflow-hidden rounded-lg relative">
             <video
               ref={videoRef1}
               src={ProjectVideeoCallofduty}
@@ -34,7 +35,8 @@ const Projects = () => {
               playsInline
               loop
               preload="auto"
-              className="w-full h-auto"
+              autoPlay // J'ai ajouté ça pour forcer la lecture sur iOS
+              className="w-full h-full"
             />
           </div>
           <h3 className="font-bold text-center md:text-start mt-2">
@@ -45,7 +47,7 @@ const Projects = () => {
           </p>
         </div>
         <div className="p-4">
-          <div className="w-full overflow-hidden rounded-lg">
+          <div className="w-full overflow-hidden rounded-lg relative">
             <video
               ref={videoRef2}
               src={ProjectVideeoCombaMaster}
@@ -53,7 +55,8 @@ const Projects = () => {
               playsInline
               loop
               preload="auto"
-              className="w-full h-auto"
+              autoPlay // J'ai ajouté ça ici aussi
+              className="w-full h-full"
             />
           </div>
           <h3 className="font-bold text-center md:text-start mt-2">
