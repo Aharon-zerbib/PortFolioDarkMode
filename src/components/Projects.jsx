@@ -54,7 +54,7 @@ const Projects = () => {
               src={currentVideo}
               controls
               autoPlay
-              className="w-full max-w-3xl h-auto rounded-lg"
+              className="w-full max-w-full h-auto rounded-lg mx-auto"
               onClick={(e) => e.stopPropagation()}
             />
           )}
