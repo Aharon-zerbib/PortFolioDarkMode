@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import Connect from '../components/Connect';
 
 
 export const MyBlog = () => {
@@ -46,14 +47,10 @@ export const MyBlog = () => {
     <h3 class="text-xl font-semibold  mb-2">Quelles perspectives ?</h3>
     <p class="text-gray-500 dark:text-gray-400 mb-4">L'IA continue d'évoluer et pourrait bientôt permettre de créer des applications entrières à partir de simples descriptions. Elle ouvre la voie à un développement plus rapide, plus accessible et plus performant.</p>
     
-    <p class=" italic mb-10">"L'avenir du développement logiciel est déjà en train de s'écrire, et l'IA en est le moteur principal."</p>
+    <p class=" italic mb-5">"L'avenir du développement logiciel est déjà en train de s'écrire, et l'IA en est le moteur principal."</p>
    
     </div>
-    <div className="mt-4  space-x-6 ">
-          <a href="https://github.com/Aharon-zerbib" className="hover:text-gray-400">Github</a>
-          <a href="https://www.linkedin.com/in/aharon-zerbib-911bb6276/" className="hover:text-gray-400">LinkedIn</a>
-         
-        </div>
+  <Connect />
         
        </section>
     </div>

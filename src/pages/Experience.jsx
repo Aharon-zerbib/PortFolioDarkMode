@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Connect from "../components/Connect";
 
 
 
@@ -38,14 +39,10 @@ const MyExperience = () => {
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-3">
           En parallèle, je me tiens informé des dernières tendances du développement web et j’échange avec la communauté tech pour toujours progresser.
         </p>
-        <p className="font-medium text-gray-500 dark:text-gray-400 row-auto">
+        <p className="font-medium text-gray-500 dark:text-gray-400 row-auto ">
           Suivez-moi pour découvrir mes projets et collaborations ! 🚀
         </p>
-        <div className="mt-4  space-x-6 ">
-          <a href="https://github.com/Aharon-zerbib" className="hover:text-gray-400">Github</a>
-          <a href="https://www.linkedin.com/in/aharon-zerbib-911bb6276/" className="hover:text-gray-400">LinkedIn</a>
-         
-        </div>
+        <Connect/>
     
       </section>
     </div>
