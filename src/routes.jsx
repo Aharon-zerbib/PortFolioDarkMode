@@ -5,6 +5,9 @@ import NotFound from "./pages/NotFound";
 import App from "./App";
 import { MyBlog } from "./pages/MyBlog";
 import ScrollToTop from "./components/ScrollToTop";
+import { Kasa } from "./pages/Kasa";
+import Sofi from "./pages/Sofi";
+;
 
 const AppRoutes = () => {
   return (
@@ -14,6 +17,8 @@ const AppRoutes = () => {
         <Route path="/" element={<App />} />
         <Route path="/my-experience" element={<MyExperience />} />
         <Route path="/my-blog" element={<MyBlog />} />
+        <Route path="/kasa" element={<Kasa />} />
+        <Route path="/sofi" element={<Sofi />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

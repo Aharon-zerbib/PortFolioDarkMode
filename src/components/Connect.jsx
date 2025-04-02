@@ -1,6 +1,12 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Connect = () => {
+    const navigate = useNavigate();
+    const click = () => {
+        navigate("/");
+    }
+
     const [theme, setTheme] = useState('system');
     
     useEffect(() => {
@@ -32,7 +38,7 @@ const Connect = () => {
             </div>
             
             <div className="mt-8 flex items-center justify-between">
-                <p className="text-gray-500">Port Folio Ronron</p>
+                <p className="text-gray-500" onClick={click}>Port Folio Ronron</p>
                 
                 <div className="flex items-center space-x-4">
                    
