@@ -2,10 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Connect from "../components/Connect";
 
-
-
 const MyExperience = () => {
-  
   
   const navigate = useNavigate();
   const click = () => { 
@@ -25,16 +22,63 @@ const MyExperience = () => {
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto">
           Développeur front-end passionné, je conçois des interfaces modernes et interactives avec un souci du détail et de la performance.
         </p>       
+
         <div className="font-medium mt-16 mb-3">Formation</div>
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-2">
-          J'ai suivi une formation chez OpenClassrooms, où j'ai acquis des compétences solides en HTML, CSS, JavaScript et en frameworks modernes comme React et Vite. Cette formation m’a permis d’apprendre à créer des applications web dynamiques, accessibles et optimisées pour tous les écrans.
+          J'ai suivi une formation chez OpenClassrooms en tant que Développeur Front-End. J'y ai acquis des compétences solides en HTML, CSS, JavaScript, React, Vite, et Tailwind CSS. Cette formation m’a permis de créer des applications web dynamiques, accessibles et optimisées pour tous les écrans.
         </p>  
+
+        <div className="font-medium mt-16 mb-3">Compétences Acquises</div>
+        <ul className="list-disc list-inside font-medium text-gray-500 dark:text-gray-400 mb-2">
+          <li>HTML5, CSS3, JavaScript</li>
+          <li>React, Vite, Tailwind CSS</li>
+          <li>Git/GitHub - Versioning et collaboration</li>
+          <li>Accessibilité Web et SEO</li>
+          <li>Testing avec Jest</li>
+        </ul>
+
+        <div className="font-medium mt-16 mb-3">Projets Réalisés</div>
+        <ul className="list-disc list-inside font-medium text-gray-500 dark:text-gray-400 mb-2">
+  <li>
+    <a href="https://github.com/Aharon-zerbib/sk8_open" target="_blank" rel="noopener noreferrer">
+      Riding Cities 
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/Aharon-zerbib/booki_" target="_blank" rel="noopener noreferrer">Booki</a>
+  </li>
+  <li>
+    <a href="https://github.com/Aharon-zerbib/ohmyfood_2-master" target="_blank" rel="noopener noreferrer">OhmyFood</a>
+  </li>
+  <li>
+    <a href="https://github.com/Aharon-zerbib/p5__V2" target="_blank" rel="noopener noreferrer">Print In</a>
+  </li>
+  <li>
+    <a href="https://github.com/Aharon-zerbib/sfb" target="_blank" rel="noopener noreferrer">Sofi Blueu</a>
+  </li>
+  <li>
+    <a href="" target="_blank" rel="noopener noreferrer">Qwenta</a>
+  </li>
+  <li>
+    <a href="https://github.com/Aharon-zerbib/kasav2" target="_blank" rel="noopener noreferrer">Kaza</a>
+  </li>
+  <li>
+    <a href="https://github.com/Aharon-zerbib/Nina-Carducci" target="_blank" rel="noopener noreferrer">NinaCduci</a>
+  </li>
+  <li>
+    <a href="https://github.com/Aharon-zerbib/724events" target="_blank" rel="noopener noreferrer">724events</a>
+  </li>
+  <li className="cursor-pointer" >
+  
+      ArgentBankFront<span role="img" aria-label="cadenas">🔒</span>
+  
+  </li>
+</ul>
+
+
         <div className="font-medium mt-16 mb-3">Maintenant</div>
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-2">
-          Je travaille sur des projets personnels pour perfectionner mes compétences et explorer de nouvelles technologies comme React, Vite et Tailwind CSS. J’expérimente également avec des outils comme TypeScript et des solutions backend comme MongoDb pour enrichir mes connaissances.
-        </p>
-        <p className="font-medium text-gray-500 dark:text-gray-400 mb-3 row-auto">
-          En freelance, j’aide mes clients à créer des sites web performants et esthétiques, en optimisant l’expérience utilisateur et la réactivité. Je prends en charge le design et le développement front-end, en veillant à proposer des interfaces fluides et intuitives.
+          Je travaille sur des projets personnels pour perfectionner mes compétences et explorer de nouvelles technologies comme TypeScript et MongoDB. En freelance, j'aide mes clients à créer des sites web performants et esthétiques, en optimisant l’expérience utilisateur et la réactivité.
         </p>
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-3">
           En parallèle, je me tiens informé des dernières tendances du développement web et j’échange avec la communauté tech pour toujours progresser.
