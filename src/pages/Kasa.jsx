@@ -30,7 +30,6 @@ const click = () => {
     <ul class="list-disc list-inside text-gray-500 dark:text-gray-400 row-auto mb-4">
         <li class="mb-1">React : Pour construire l'application et gérer l'affichage dynamique.</li>
         <li class="mb-1">React Router : Pour gérer la navigation entre les différentes pages.</li>
-        <li class="mb-1">Create React App : Pour initialiser le projet.</li>
         <li class="mb-1">SASS : Pour un style CSS moderne et structuré.</li>
         <li class="mb-1">JSON : Pour simuler les données des annonces immobilières.</li>
     </ul>
@@ -41,10 +40,11 @@ const click = () => {
         <li class="mb-1">Créer plusieurs pages : page d'accueil, galerie des annonces, page des propriétés.</li>
         <li class="mb-1">Implémenter des animations pour enrichir l'expérience utilisateur.</li>
         <li class="mb-1">Assurer la gestion des erreurs de routage.</li>
-        <li class="mb-9">Préparer une soutenance pour présenter le projet devant un jury.</li>
     </ul>
 
     <p class="italic mb-5">"Ce projet permet de démontrer votre maîtrise de React, React Router, SASS, et la création d'une application web moderne avec une navigation fluide."</p>
+    <a href="https://github.com/Aharon-zerbib/kasav2" target="_blank" rel="noopener noreferrer">Kaza</a>
+
 </div>
 
         </div>    

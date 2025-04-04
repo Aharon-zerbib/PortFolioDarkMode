@@ -32,7 +32,7 @@ const MyExperience = () => {
         <ul className="list-disc list-inside font-medium text-gray-500 dark:text-gray-400 mb-2">
           <li>HTML5, CSS3, JavaScript</li>
           <li>React, Vite, Tailwind CSS</li>
-          <li>Git/GitHub - Versioning et collaboration</li>
+          <li>Git/GitHub </li>
           <li>Accessibilité Web et SEO</li>
           <li>Testing avec Jest</li>
         </ul>
@@ -78,7 +78,7 @@ const MyExperience = () => {
 
         <div className="font-medium mt-16 mb-3">Maintenant</div>
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-2">
-          Je travaille sur des projets personnels pour perfectionner mes compétences et explorer de nouvelles technologies comme TypeScript et MongoDB. En freelance, j'aide mes clients à créer des sites web performants et esthétiques, en optimisant l’expérience utilisateur et la réactivité.
+          Je travaille sur des projets personnels pour perfectionner mes compétences et explorer de nouvelles technologies comme TypeScript et Angular. En freelance, j'aide mes clients à créer des sites web performants et esthétiques, en optimisant l’expérience utilisateur et la réactivité.
         </p>
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-3">
           En parallèle, je me tiens informé des dernières tendances du développement web et j’échange avec la communauté tech pour toujours progresser.
