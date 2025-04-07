@@ -7,6 +7,7 @@ import { MyBlog } from "./pages/MyBlog";
 import ScrollToTop from "./components/ScrollToTop";
 import { Kasa } from "./pages/Kasa";
 import Sofi from "./pages/Sofi";
+import UnrealExperience from "./pages/UnrealExperience";
 ;
 
 const AppRoutes = () => {
@@ -16,6 +17,7 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/my-experience" element={<MyExperience />} />
+        <Route path="/UnrealExperience" element={<UnrealExperience />} />
         <Route path="/my-blog" element={<MyBlog />} />
         <Route path="/kasa" element={<Kasa />} />
         <Route path="/sofi" element={<Sofi />} />
