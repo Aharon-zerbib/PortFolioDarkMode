@@ -1,22 +1,15 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; 
+
 import Connect from '../components/Connect';
+import { Top } from '../components/Top';
 
 const UnrealExperience = () => {
-  const navigate = useNavigate();
-  const click = () => { 
-    navigate("/"); 
-  }
+ 
 
   return (
     <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white flex flex-col items-center p-10 font-sans animate-slideDown">    
-      <div className="text-start w-full max-w-3xl mx-auto mt-9">
-        <h1 className="font-medium cursor-pointer" onClick={click}>
-          Aharon Zerbib
-        </h1>
-        <h2 className="font-medium mt-2 text-gray-500 dark:text-gray-400 mb-9">Développeur Front-End</h2>
-      </div> 
-
+      
+<Top/>
       <div className="text-start w-full max-w-3xl mx-auto">
         <h3 className="text-xl font-semibold mb-4 mt-16">🎮 Unreal Engine – Formations & Projet personnel</h3>
 

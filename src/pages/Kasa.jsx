@@ -1,21 +1,15 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+
 import Connect from '../components/Connect';
 import image2test from "../img/image.png";
+import { Top } from '../components/Top';
 
 export const Kasa = () => {
-const navigate = useNavigate();
-const click = () => {
-    navigate("/");
-}
 
     return (
         <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white flex flex-col items-center p-10 font-sans animate-slideDown"> 
         <div className="text-start w-full max-w-3xl mx-auto mt-9">
-            <h1 className="font-medium cursor-pointer" onClick={click}>
-                Nom de l'architecte
-            </h1>
-            <h2 className="font-medium mt-2 text-gray-300 mb-9">Architecte d'intérieur</h2>
+            <Top    />
              <img
              src={image2test}
              alt="Projet Kasa"

@@ -1,25 +1,20 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+
 import Connect from '../components/Connect';
 import imageBlog from "../img/imgBlog.jpg";
+import { Top } from '../components/Top';
 
 
 export const MyBlog = () => {
-    const navigate = useNavigate();
-    const click = () => { 
-        navigate("/"); 
-    }
+
     return ( 
     <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white flex flex-col items-center p-10 font-sans animate-slideDown"> 
         <div className="text-start w-full max-w-3xl mx-auto mt-9">
-            <h1 className="font-medium cursor-pointer" onClick={click}>
-                Aharon Zerbib
-            </h1>
-            <h2 className="font-medium mt-2 text-gray-300 mb-9">Développeur Front-End</h2>
+            <Top    />  
         </div>   
         <section className="text-start w-full max-w-3xl mx-auto">
         <div className=" h-80 rounded-lg md:rounded-xl lg:rounded-2xl overflow-hidden mb-4">
-        <img src={imageBlog} />
+        <img src={imageBlog} alt="Illustration pour le blog" />
        </div>
        <div class="p-6 ">
     <h1 class="text-3xl font-bold  mb-4">Comment l'IA change notre façon de concevoir</h1>
