@@ -1,7 +1,5 @@
 import React from 'react';
-
 import Connect from '../components/Connect';
-import imageBlog from "../img/imgBlog.jpg";
 import { Top } from '../components/Top';
 
 
@@ -13,9 +11,6 @@ export const MyBlog = () => {
             <Top    />  
         </div>   
         <section className="text-start w-full max-w-3xl mx-auto">
-        <div className=" h-80 rounded-lg md:rounded-xl lg:rounded-2xl overflow-hidden mb-4">
-        <img src={imageBlog} alt="Illustration pour le blog" />
-       </div>
        <div class="p-6 ">
     <h1 class="text-3xl font-bold  mb-4">Comment l'IA change notre façon de concevoir</h1>
     <p class="text-gray-500 dark:text-gray-400 row-auto ">L'intelligence artificielle (IA) est en train de transformer radicalement le développement logiciel. Autrefois, coder demandait des heures de travail, des tests minutieux et une grande expertise technique. 

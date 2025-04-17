@@ -49,7 +49,7 @@ import { Top } from '../components/Top';
 </div>
 
         </div>    
-        <Connect></Connect>
+        <Connect/>
         </div>
     );
 }

@@ -63,10 +63,8 @@ const MyExperience = () => {
   <li>
     <a href="https://github.com/Aharon-zerbib/724events" target="_blank" rel="noopener noreferrer">724events</a>
   </li>
-  <li className="cursor-pointer" >
-  
-      ArgentBankFront<span role="img" aria-label="cadenas">🔒</span>
-  
+  <li >
+  <a href="https://github.com/Aharon-zerbib/ArgentBankFront" target="_blank" rel="noopener noreferrer"> ArgentBankFront</a>
   </li>
 </ul>
 
