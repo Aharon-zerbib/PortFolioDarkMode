@@ -38,7 +38,7 @@ const Connect = () => {
             </div>
             
             <div className="mt-8 flex items-center justify-between">
-                <p className="text-gray-500" onClick={click}>Port Folio Ronron</p>
+                <p className="font-medium cursor-pointer" onClick={click}>Aharon Zerbib</p>
                 
                 <div className="flex items-center space-x-4">
                    
