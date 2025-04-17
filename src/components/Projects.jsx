@@ -29,7 +29,7 @@ const Projects = () => {
             className="w-full h-48 object-cover rounded-lg mb-4 border border-gray-100"
           />
           <h3 className="font-bold">Premier Project</h3>
-          <p className="text-gray-500">Composants et modèles avancés pour créer de superbes sites Web.</p>
+          <p className="text-gray-500">Cite Kaza OpenClassRoom .</p>
         </div>
 
         <div
@@ -42,7 +42,7 @@ const Projects = () => {
             className="w-full h-48 object-cover rounded-lg mb-4 border border-gray-100"
           />
           <h3 className="font-bold">Segond Project</h3>
-          <p className="text-gray-500">Kit d'interface utilisateur pour créer de belles interfaces animées.</p>
+          <p className="text-gray-500">Cite Sofi Bloue OpenClassRoom.</p>
         </div>
       </div>
     </section>
