@@ -9,7 +9,8 @@ export const Top = () => {
     };
 
     return (
-        <div className="text-start w-full max-w-3xl mx-auto mt-9">
+      <div className="text-start w-full max-w-3xl mx-auto mt-0 md:mt-9">
+
         <h1 className="font-medium cursor-pointer" onClick={click}>
           Aharon Zerbib
         </h1>
