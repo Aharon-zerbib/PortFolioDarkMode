@@ -45,7 +45,7 @@ import { Top } from '../components/Top';
     <p class="text-gray-500 dark:text-gray-400 row-auto mb-4">Ce projet met en avant des compétences en développement Front-End, en création d'interfaces dynamiques, et en interaction avec une API pour une gestion efficace des projets.</p>
 
     <p class="italic mb-5">"L'objectif final est de présenter un portfolio professionnel qui illustre les compétences et les réalisations de l'architecte."</p>
-    <a href="https://github.com/Aharon-zerbib/sfb" target="_blank" rel="noopener noreferrer">Sofi Blueu</a>
+    <a className='underline ' href="https://github.com/Aharon-zerbib/sfb" target="_blank" rel="noopener noreferrer">Sofi Blueu</a>
 </div>
 
         </div>    

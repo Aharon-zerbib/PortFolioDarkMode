@@ -37,7 +37,7 @@ export const Kasa = () => {
     </ul>
 
     <p class="italic mb-5">"Ce projet permet de montrer ma maîtrise de React, React Router, Css, et la création d'une application web moderne avec une navigation fluide."</p>
-    <a href="https://github.com/Aharon-zerbib/kasav2" target="_blank" rel="noopener noreferrer">Kaza</a>
+    <a className='underline' href="https://github.com/Aharon-zerbib/kasav2" target="_blank" rel="noopener noreferrer">Kaza</a>
 
 </div>
 
