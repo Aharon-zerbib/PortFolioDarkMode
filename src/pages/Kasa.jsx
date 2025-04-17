@@ -17,14 +17,14 @@ export const Kasa = () => {
             />
             <div class="p-6">
     <h1 class="text-3xl font-bold mb-4">Projet Kasa - Application Web de Location Immobilière</h1>
-    <p class="text-gray-500 dark:text-gray-400 row-auto">Ce projet consiste à développer une application web moderne de location immobilière avec React, en mettant l'accent sur la conception front-end et l'expérience utilisateur. Il comprend la création de pages dynamiques, la gestion de données simulées en JSON et l'utilisation de SASS pour un design élégant.</p>
+    <p class="text-gray-500 dark:text-gray-400 row-auto">Ce projet consiste à développer une application web moderne de location immobilière avec React, en mettant l'accent sur la conception front-end et l'expérience utilisateur. Il comprend la création de pages dynamiques, la gestion de données simulées en JSON et l'utilisation de Css pour un design élégant.</p>
     <p class="text-gray-500 dark:text-gray-400 row-auto mb-9">L'objectif est de bâtir une application fluide et moderne correspondant aux exigences techniques et fonctionnelles spécifiées.</p>
 
     <h2 class="text-2xl font-semibold mb-3">Technologies à utiliser</h2>
     <ul class="list-disc list-inside text-gray-500 dark:text-gray-400 row-auto mb-4">
         <li class="mb-1">React : Pour construire l'application et gérer l'affichage dynamique.</li>
         <li class="mb-1">React Router : Pour gérer la navigation entre les différentes pages.</li>
-        <li class="mb-1">SASS : Pour un style CSS moderne et structuré.</li>
+        <li class="mb-1">Css : Pour un style moderne et structuré.</li>
         <li class="mb-1">JSON : Pour simuler les données des annonces immobilières.</li>
     </ul>
 
@@ -36,7 +36,7 @@ export const Kasa = () => {
         <li class="mb-1">Assurer la gestion des erreurs de routage.</li>
     </ul>
 
-    <p class="italic mb-5">"Ce projet permet de démontrer votre maîtrise de React, React Router, SASS, et la création d'une application web moderne avec une navigation fluide."</p>
+    <p class="italic mb-5">"Ce projet permet de montrer ma maîtrise de React, React Router, Css, et la création d'une application web moderne avec une navigation fluide."</p>
     <a href="https://github.com/Aharon-zerbib/kasav2" target="_blank" rel="noopener noreferrer">Kaza</a>
 
 </div>
