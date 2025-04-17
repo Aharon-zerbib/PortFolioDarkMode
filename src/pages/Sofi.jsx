@@ -22,8 +22,8 @@ import { Top } from '../components/Top';
 
     <h2 class="text-2xl font-semibold mb-3">Une Interface Élégante et Intuitive</h2>
     <p class="text-gray-500 dark:text-gray-400 row-auto">L'application est conçue pour offrir une expérience utilisateur agréable, permettant une navigation fluide entre les sections de la galerie et la gestion des projets.</p>
-    <p class="text-gray-500 dark:text-gray-400 row-auto mb-4">L'administration peut facilement ajouter, modifier ou supprimer des projets sans recharger la page, garantissant une interface dynamique et réactive.</p>
-    <p class="italic mb-9">"L'objectif est de présenter un portfolio moderne qui reflète la créativité et le professionnalisme de l'architecte."</p>
+    <p class="text-gray-500 dark:text-gray-400 row-auto mb-9">L'administration peut facilement ajouter, modifier ou supprimer des projets sans recharger la page, garantissant une interface dynamique et réactive.</p>
+ 
 
     <h3 class="text-xl font-semibold mb-2">Fonctionnalités Principales</h3>
     <ul class="list-disc list-inside text-gray-500 dark:text-gray-400 row-auto mb-4">
