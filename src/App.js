@@ -3,7 +3,6 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Blog from "./components/Blog";
 import Connect from "./components/Connect";
-import FreelanceSection from "./components/FreelanceSection";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <Projects />
       <Experience />
       <Blog />
-      <FreelanceSection />
       <Connect />
     </div>
   );

@@ -12,29 +12,24 @@ const MyExperience = () => {
       <section className="text-start w-full max-w-3xl mx-auto">
         <div className="font-medium mt-5 mb-3">À propos de moi</div>
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto">
-          Développeur <span className="text-blue-500">full-stack</span>{" "}
-          passionné, je conçois des applications web modernes, performantes et
-          interactives. J’aime autant travailler sur l’interface utilisateur
-          (front-end) que sur la logique serveur et la gestion des bases de
-          données (back-end).
+          Développeur front-end passionné, je conçois des interfaces modernes et
+          interactives avec un souci du détail et de la performance.
         </p>
 
         <div className="font-medium mt-16 mb-3">Formation</div>
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-2">
           J'ai suivi une formation chez OpenClassrooms en tant que Développeur
           Front-End. J'y ai acquis des compétences solides en HTML, CSS,
-          JavaScript, React, Vite et Tailwind CSS. Aujourd’hui, j’ai élargi mon
-          champ de compétences pour maîtriser Next.js et le développement
-          full-stack avec API et bases de données.
+          JavaScript, React, Vite, et Tailwind CSS. Cette formation m’a permis
+          de créer des applications web dynamiques, accessibles et optimisées
+          pour tous les écrans.
         </p>
 
         <div className="font-medium mt-16 mb-3">Compétences Acquises</div>
         <ul className="list-disc list-inside font-medium text-gray-500 dark:text-gray-400 mb-2">
-          <li>HTML5, CSS3, JavaScript, TypeScript</li>
-          <li>React, Next.js, Vite, Tailwind CSS</li>
-          <li>Gestion de bases de données (MongoDB)</li>
-          <li>API REST & GraphQL</li>
-          <li>Git/GitHub, CI/CD</li>
+          <li>HTML5, CSS3, JavaScript</li>
+          <li>React, Vite, Tailwind CSS</li>
+          <li>Git/GitHub </li>
           <li>Accessibilité Web et SEO</li>
           <li>Testing avec Jest</li>
         </ul>
@@ -87,9 +82,15 @@ const MyExperience = () => {
             </a>
           </li>
           <li>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <button
+              type="button"
+              className="underline text-blue-600"
+              onClick={() => {
+                /* Placeholder button: real link not available */
+              }}
+            >
               Qwenta
-            </a>
+            </button>
           </li>
           <li>
             <a
@@ -130,20 +131,13 @@ const MyExperience = () => {
           </li>
         </ul>
 
-        <div className="font-medium mt-16 mb-3">Maintenant</div>
+        <div className="font-medium mt-8 mb-3">Ce que j'en ai pensé</div>
         <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-2">
-          Aujourd’hui, je développe des applications full-stack avec{" "}
-          <span className="text-blue-500">Next.js</span>, en intégrant des bases
-          de données (MongoDB) et des API sécurisées. Je propose aussi des
-          solutions freelances à mes clients, en créant des sites performants,
-          optimisés pour le SEO et une expérience utilisateur fluide.
-        </p>
-        <p className="font-medium text-gray-500 dark:text-gray-400 row-auto mb-3">
-          Je continue à me former aux dernières technologies et à échanger avec
-          la communauté tech pour progresser en continu.
-        </p>
-        <p className="font-medium text-gray-500 dark:text-gray-400 row-auto ">
-          Suivez-moi pour découvrir mes projets et collaborations ! 🚀
+          La formation chez OpenClassrooms a été très enrichissante : la
+          pédagogie est claire, les projets sont concrets et les retours
+          constructifs. Elle m'a permis de consolider mes compétences en
+          développement front-end, d'adopter de bonnes pratiques et de gagner en
+          autonomie sur des projets réels.
         </p>
 
         <Connect />

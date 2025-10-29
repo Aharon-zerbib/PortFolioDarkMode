@@ -5,9 +5,8 @@ const Header = () => {
     <header className="text-start  w-full max-w-3xl mx-auto mt-9">
       <Top />
       <p className="font-medium text-gray-500 dark:text-gray-400  row-auto">
-        Spécialisé en Next.js, React et bases de données. Je conçois des
-        applications modernes, performantes et centrées sur l’expérience
-        utilisateur.
+        Je conçois des applications modernes, rapides et intuitives, pensées
+        pour offrir une expérience utilisateur fluide .
       </p>
     </header>
   );
