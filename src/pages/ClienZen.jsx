@@ -34,17 +34,20 @@ export const ClienZen = () => {
 
           <h3 className="text-xl font-semibold mb-2">Fonctionnalités clés</h3>
           <ul className="list-disc list-inside text-gray-500 dark:text-gray-400 row-auto mb-4">
-            <li className="mb-1">Gestion des contacts et des entreprises</li>
+            <li className="mb-1">Suivi avec un tableau de bord synthétique</li>
             <li className="mb-1">
-              Création et envoi de devis et factures simplifiés
+              Suivi de tâches avec un kanban pour gérer les clients et les
+              actions
             </li>
-            <li className="mb-1">Suivi des opportunités / pipeline léger</li>
             <li className="mb-1">
-              Modèles de messages et automatisations basiques
+              Onglet « Facturer » synchronisé avec les fiches clients
             </li>
-            <li className="mb-1">Import/Export CSV pour synchronisation</li>
             <li className="mb-1">
-              Tableau de bord synthétique et notifications
+              Agenda intuitif pour les événements et rendez-vous de l'entreprise
+            </li>
+            <li className="mb-1">
+              Onglet « Mon entreprise » pour gérer les informations légales et
+              paramètres
             </li>
           </ul>
 

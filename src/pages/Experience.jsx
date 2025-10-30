@@ -84,7 +84,6 @@ const MyExperience = () => {
           <li>
             <button
               type="button"
-              className="underline text-blue-600"
               onClick={() => {
                 /* Placeholder button: real link not available */
               }}

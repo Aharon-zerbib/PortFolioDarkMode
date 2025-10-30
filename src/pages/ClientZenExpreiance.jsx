@@ -26,7 +26,7 @@ const ClientZenExpreiance = () => {
           <h3 className="text-xl font-semibold mb-2">Stack proposée</h3>
           <ul className="list-disc list-inside text-gray-500 dark:text-gray-400 row-auto mb-4">
             <li className="mb-1">
-              Back-end : <strong>Laravel</strong> (API ou Inertia selon besoin)
+              Back-end : <strong>Laravel</strong>
             </li>
             <li className="mb-1">
               Base de données : <strong>MySQL</strong>
